@@ -1,10 +1,10 @@
-import Form from "./form";
+import SignupForm from "./components/SignupForm";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Form />
+      <SignupForm />
     </div>
   );
 }
